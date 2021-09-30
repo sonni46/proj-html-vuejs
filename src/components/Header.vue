@@ -1,6 +1,7 @@
 <template>
-  <div class="d-flex justify-content-between">
-    <div>
+<!-- menu  -->
+  <div class="d-flex justify-content-between menu">
+    <div class="d-flex">
       <img :src="require(`@/assets/img/avada-law-logo.png`)" alt="">
     </div>
     <div class="">
@@ -11,21 +12,16 @@
       </ul>
     </div>
   </div>
+<!--fine  menu  -->
 </template>
 
 <script>
+import * as menu from "@/js/Info.js";
 export default {
   name : "Header",
   data(){
    return {
-      infoMenu: [
-                {message:'Home'},
-                {message:'Who We Are'},
-                {message:'Who We Do'},
-                {message:'Where We Work'},
-                {message:'Careers'},
-                {message:'News'},
-                {message:'Contact'}],
+      infoMenu: menu.menu
     }
   },
 }
@@ -35,6 +31,10 @@ export default {
 <style scoped lang="scss">
 @import "@/style/Colors.scss";
 @import "@/style/Utilitis.scss";
+
+.menu{
+  padding:20px 0;
+}
 
 ul {
   width: 100%;

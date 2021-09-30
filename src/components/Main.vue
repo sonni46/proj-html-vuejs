@@ -1,14 +1,52 @@
 <template>
-  
+  <div class="border-t-Nymph bg-Ebb">
+      <div class="container d-flex align-items-center justify-content-between">
+          <div class="p-y-15 color-Gray ">
+              <span>Avada &amp; Associates legal team announce deal to open up oil &amp; gas</span>
+          </div>
+          <div class="social d-flex justify-content-between">
+              <a href="">
+                <i class='bg-Bay pad- color-White fab fa-facebook-f'></i>
+              </a>
+              <a href="" v-for="(social,index) in SocialsList" :key="index" >
+                <i class='bg-Bay pad-10 color-White' :class="social.icon"></i>
+              </a>
+          </div>
+      </div>
+
+  </div>
 </template>
 
 <script>
+import * as socials from "@/js/Info.js";
 export default {
-    name:"Main"
-
+    name:"Main",
+    data(){
+        return {
+            SocialsList:socials.socials
+        }
+    },
 }
 </script>
 
+
 <style scoped lang="scss">
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import "@/style/Utilitis.scss";
+@import "@/style/Colors.scss";
+
+.social {
+    width: 18%;
+    i {
+        border-radius: 18%;
+    }
+}
+.pad-10 {
+        padding: 10px 10px;
+    }
+    
+.pad- {
+    padding: 10px 13px;
+}
 
 </style>

@@ -1,3 +1,4 @@
+@import "@/style/Colors.scss";
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +11,6 @@ body {
 
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     
@@ -20,7 +19,7 @@ body {
     width: 55%;
     margin: 0 auto;
 }
-
+// flex 
 .d-flex {
     display: flex;
 }
@@ -32,4 +31,43 @@ body {
 .align-items-center{
     align-items: center;
 }
+// flex 
 
+.m-t-rem {
+    margin-top: 1rem;
+}
+
+.border-t-Nymph{
+    border-top: 4px solid $color-Sea-Nymph;
+}
+
+.p-y-15{
+    padding:15px 0 ;
+}
+// color 
+.color-Gray{
+    color: $color-Shuttle-Gray;
+}
+
+.color-White {
+    color: $color-White;
+}
+
+// color 
+
+// background
+.bg-Ebb {
+    background-color: $color-Ebb;
+}
+
+.bg-Bay {
+    background-color: $color-Breaker-Bay;
+}
+
+
+// background
+
+
+
+   
+    
