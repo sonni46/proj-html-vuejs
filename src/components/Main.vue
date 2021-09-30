@@ -1,25 +1,44 @@
 <template>
-  <div class="border-t-Nymph bg-Ebb">
-      <div class="container d-flex align-items-center justify-content-between">
-          <div class="p-y-15 color-Gray ">
-              <span>Avada &amp; Associates legal team announce deal to open up oil &amp; gas</span>
-          </div>
-          <div class="social d-flex justify-content-between">
-              <a href="">
-                <i class='bg-Bay pad- color-White fab fa-facebook-f'></i>
-              </a>
-              <a href="" v-for="(social,index) in SocialsList" :key="index" >
-                <i class='bg-Bay pad-10 color-White' :class="social.icon"></i>
-              </a>
-          </div>
-      </div>
+<div>
+    <div class="border-t-Nymph bg-Ebb">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- info  -->
+            <div class="p-y-15 color-Gray ">
+                <span>Avada &amp; Associates legal team announce deal to open up oil &amp; gas</span>
+            </div>
+            <!-- info  -->
 
-  </div>
+            <!-- social  -->
+            <div class="social d-flex justify-content-between">
+                <a href="">
+                    <i class='bg-Bay pad-fb color-White fab fa-facebook-f'></i>
+                </a>
+                <a href="" v-for="(social,index) in SocialsList" :key="index" >
+                    <i class='bg-Bay pad-10 color-White' :class="social.icon"></i>
+                </a>
+            </div>
+            <!-- social  -->
+        </div>  
+    </div>
+    <!-- jumbo  -->
+    <Jumbo/>
+    <!-- jumbo  -->
+    <!-- general info  -->
+    <GenInfo/>
+    <!-- general info  -->
+</div>
 </template>
 
 <script>
+import GenInfo from './GenInfo.vue';
 import * as socials from "@/js/Info.js";
+import Jumbo from './Jumbo.vue';
+
 export default {
+  components: { 
+      Jumbo, 
+      GenInfo
+    },
     name:"Main",
     data(){
         return {
@@ -44,8 +63,8 @@ export default {
 .pad-10 {
         padding: 10px 10px;
     }
-    
-.pad- {
+
+.pad-fb {
     padding: 10px 13px;
 }
 
