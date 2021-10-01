@@ -106,10 +106,9 @@ export default {
     background-color:$color-Breaker-Bay;
     color:$color-White;
     span {
+        cursor: pointer;
         padding: 10px 20px;
         background-color:$color-Sea-Nymph;
     }
 }
-
-
 </style>

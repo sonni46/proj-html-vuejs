@@ -35,8 +35,41 @@ const global =
     {
         message: "LOCAL KNOWLEDGE"
     },
+];
+
+const globalChallenge = 
+[
+    {
+    peoples : 
+        [
+            {
+                img: "column1-image1.jpg",
+                name:"",
+            },
+            {
+                img: "column1-image1.jpg",
+                name:"",
+            },
+            {
+                img: "column1-image1.jpg",
+                name:"",
+            },
+            {
+                img: "column1-image1.jpg",
+                name:"",
+            },
+            {
+                img: "column1-image1.jpg",
+                name:"",
+            },
+            {
+                img: "column1-image1.jpg",
+                name:"",
+            },
+        ],
+    }
 ]
 
-export {socials,menu,global}
+export {socials,menu,global,globalChallenge}
 
 

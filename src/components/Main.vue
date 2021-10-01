@@ -23,9 +23,15 @@
     <!-- jumbo  -->
     <Jumbo/>
     <!-- jumbo  -->
+
     <!-- general info  -->
     <GenInfo/>
     <!-- general info  -->
+    
+    <!-- Challenge -->
+    <Challenge/>
+    <!-- Challenge -->
+
 </div>
 </template>
 
@@ -33,11 +39,14 @@
 import GenInfo from './GenInfo.vue';
 import * as socials from "@/js/Info.js";
 import Jumbo from './Jumbo.vue';
+import Challenge from './Challenge.vue';
+
 
 export default {
   components: { 
       Jumbo, 
-      GenInfo
+      GenInfo,
+      Challenge
     },
     name:"Main",
     data(){
