@@ -21,6 +21,22 @@ const socials =
     }
 ];
 
-export {socials,menu}
+const global = 
+[
+    {
+        message: "A GLOBAL VIEW"
+    },
+    {
+        message: "EXPERT LAWYERS"
+    },
+    {
+        message: "CLIENT FOCUS"
+    },
+    {
+        message: "LOCAL KNOWLEDGE"
+    },
+]
+
+export {socials,menu,global}
 
 
