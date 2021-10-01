@@ -33,6 +33,7 @@ body {
 }
 // flex 
 
+// margin 
 .m-t-rem {
     margin-top: 1rem;
 }
@@ -41,9 +42,17 @@ body {
     margin-top: 2rem;
 }
 
+// margin 
+
+// border 
+
 .border-t-Nymph{
     border-top: 4px solid $color-Sea-Nymph;
 }
+
+// border 
+
+// padding 
 
 .p-y-15{
     padding:15px 0 ;
@@ -51,6 +60,10 @@ body {
 
 .p-15{
     padding:15px;
+}
+
+.p-y-50 {
+    padding: 50px 0;
 }
 
 .p-t-35 {
@@ -77,6 +90,8 @@ padding-bottom: 50px;
     padding:0 50px;
 }
 
+
+// padding 
 
 // color 
 .color-Gray{

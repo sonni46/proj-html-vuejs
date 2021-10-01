@@ -42,6 +42,12 @@
             </li>
         </ul>  
     </div>
+    <div class="ask">
+        <div class="container p-y-50 d-flex align-items-center justify-content-between"> 
+            <h3>QUESTIONS ABOUT A JUDICAL ISSUE? ASK OUR EXPERTS</h3>
+            <span>ASK AN EXPERT</span>
+        </div>
+    </div>
 </div>
 </template>
 
@@ -93,6 +99,15 @@ export default {
     text-align: center;
     i {
         color:$color-Breaker-Bay ;
+    }
+}
+
+.ask {
+    background-color:$color-Breaker-Bay;
+    color:$color-White;
+    span {
+        padding: 10px 20px;
+        background-color:$color-Sea-Nymph;
     }
 }
 
