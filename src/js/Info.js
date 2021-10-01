@@ -37,39 +37,99 @@ const global =
     },
 ];
 
-const globalChallenge = 
+const people = 
 [
-    {
-    peoples : 
-        [
             {
                 img: "column1-image1.jpg",
-                name:"",
+                name:"Deborah Brown",
             },
             {
-                img: "column1-image1.jpg",
-                name:"",
+                img: "column1-image2.jpg",
+                name:"Allen Lucas",
             },
             {
-                img: "column1-image1.jpg",
-                name:"",
+                img: "column1-image3.jpg",
+                name:"Muriel Potter",
             },
             {
-                img: "column1-image1.jpg",
-                name:"",
+                img: "column1-image4.jpg",
+                name:"Ken Douglas",
             },
             {
-                img: "column1-image1.jpg",
-                name:"",
+                img: "column1-image5.jpg",
+                name:"Loretta Harris",
             },
             {
-                img: "column1-image1.jpg",
-                name:"",
+                img: "column1-image6.jpg",
+                name:"Phil Russell",
             },
-        ],
-    }
-]
+];
 
-export {socials,menu,global,globalChallenge}
+const practice = 
+[
+        {
+            img: "column2-image1.jpg",
+            name:"Tax Litigation",
+        },
+        {
+            img: "column2-image2.jpg",
+            name:"Aquisitions",
+        },
+        {
+            img: "column2-image3.jpg",
+            name:"Financial Advice",
+        },
+        {
+            img: "column2-image4.jpg",
+            name:"International",
+        },
+        {
+            img: "column2-image5.jpg",
+            name:"Oil and Gas",
+        },
+        {
+            img: "column2-image6.jpg",
+            name:"Capital Markets",
+        },
+];
+
+const pubblication = 
+[
+        {
+            img: "column3-image1.jpg",
+            name:"Low Oil Prices",
+        },
+        {
+            img: "column3-image2.jpg",
+            name:"Cost of Divorce",
+        },
+        {
+            img: "column3-image3.jpg",
+            name:"2015 Tax Laws",
+        },
+        {
+            img: "column3-image4.jpg",
+            name:"Surveys Matter",
+        },
+        {
+            img: "column3-image5.jpg",
+            name:"In-House Work",
+        },
+        {
+            img: "column3-image6.jpg",
+            name:"Obama Care",
+        },
+];
+
+
+export 
+{
+    socials,
+    menu,
+    global,
+    people,
+    practice,
+    pubblication
+}
 
 
