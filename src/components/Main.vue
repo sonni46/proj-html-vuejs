@@ -32,6 +32,10 @@
     <Challenge/>
     <!-- Challenge -->
 
+    <!-- Envato -->
+    <Envato/>
+    <!-- Envato -->
+
 </div>
 </template>
 
@@ -40,13 +44,15 @@ import GenInfo from './GenInfo.vue';
 import * as socials from "@/js/Info.js";
 import Jumbo from './Jumbo.vue';
 import Challenge from './Challenge.vue';
+import Envato from './Envato.vue';
 
 
 export default {
   components: { 
       Jumbo, 
       GenInfo,
-      Challenge
+      Challenge,
+      Envato
     },
     name:"Main",
     data(){
