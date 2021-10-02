@@ -4,6 +4,7 @@
         <div class="container">
             <div class="learn">
                 <ul class="d-flex bg-white border-t-Nymph">
+                    <!-- Card 1 -->
                     <li class="p-y-15 p-x-50">
                         <h3 class="p-y-15 p-t-35">WHO WE ARE</h3>
                         <span>Nullam fringilla tristique elit id varius.Nulla lacina quanm nec venenatis dignissim.Vivamus volutpat tempus semper. Cras feugiat mi sit amet risus consectetur.
@@ -12,6 +13,9 @@
                             <span class="button">LEARN MORE</span>
                         </div>
                     </li>
+                    <!-- Card 1 --> 
+
+                    <!-- Card 2 -->
                     <li class="p-y-15 p-x-50 center">
                         <h3 class="p-y-15 p-t-35">WHAT WE DO </h3>
                         <span>Nullam fringilla tristique elit id varius.Nulla lacina quanm nec venenatis dignissim.Vivamus volutpat tempus semper. Cras feugiat mi sit amet risus consectetur.
@@ -20,6 +24,9 @@
                             <span class="button">LEARN MORE</span>
                         </div>
                     </li>
+                    <!-- Card 2 -->
+
+                    <!-- Card 3 -->
                     <li class="p-y-15 p-x-50">
                         <h3 class="p-y-15 p-t-35">WHERE WE WORK</h3>
                         <span>Nullam fringilla tristique elit id varius.Nulla lacina quanm nec venenatis dignissim.Vivamus volutpat tempus semper. Cras feugiat mi sit amet risus consectetur.
@@ -28,6 +35,7 @@
                             <span class="button">LEARN MORE</span>
                         </div>
                     </li>
+                    <!-- Card 3 -->
                 </ul>
             </div>
         </div>

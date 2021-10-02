@@ -36,6 +36,10 @@
     <Envato/>
     <!-- Envato -->
 
+    <!--Card -->
+    <Card/>
+    <!--Card -->
+
 </div>
 </template>
 
@@ -45,6 +49,7 @@ import * as socials from "@/js/Info.js";
 import Jumbo from './Jumbo.vue';
 import Challenge from './Challenge.vue';
 import Envato from './Envato.vue';
+import Card from './Card.vue';
 
 
 export default {
@@ -52,7 +57,8 @@ export default {
       Jumbo, 
       GenInfo,
       Challenge,
-      Envato
+      Envato,
+      Card
     },
     name:"Main",
     data(){
