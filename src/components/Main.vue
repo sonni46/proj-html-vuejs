@@ -44,6 +44,9 @@
     <toGether/>
     <!-- toGether -->
 
+    <!-- Footer -->
+    <Footer/>
+    <!-- Footer -->
 </div>
 </template>
 
@@ -55,6 +58,7 @@ import Challenge from './Challenge.vue';
 import Envato from './Envato.vue';
 import Card from './Card.vue';
 import ToGether from './ToGether.vue';
+import Footer from './Footer.vue';
 
 
 export default {
@@ -65,6 +69,7 @@ export default {
     Envato,
     Card,
     ToGether,
+    Footer
     },
     name:"Main",
     data(){

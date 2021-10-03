@@ -121,6 +121,22 @@ const pubblication =
         },
 ];
 
+const footer = 
+[
+    {
+        message:"© Copyright 2012-2020 |"
+    },
+    {
+        message:"Avada Theme by Theme Fusion |"
+    },
+    {
+        message:"All Rights Reserved |"
+    },
+    {
+        message:"Powered by WordPress |"
+    },
+];
+
 
 export 
 {
@@ -129,7 +145,8 @@ export
     global,
     people,
     practice,
-    pubblication
+    pubblication,
+    footer
 }
 
 
