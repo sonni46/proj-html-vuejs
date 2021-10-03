@@ -40,6 +40,10 @@
     <Card/>
     <!--Card -->
 
+    <!-- toGether -->
+    <toGether/>
+    <!-- toGether -->
+
 </div>
 </template>
 
@@ -50,15 +54,17 @@ import Jumbo from './Jumbo.vue';
 import Challenge from './Challenge.vue';
 import Envato from './Envato.vue';
 import Card from './Card.vue';
+import ToGether from './ToGether.vue';
 
 
 export default {
   components: { 
-      Jumbo, 
-      GenInfo,
-      Challenge,
-      Envato,
-      Card
+    Jumbo, 
+    GenInfo,
+    Challenge,
+    Envato,
+    Card,
+    ToGether,
     },
     name:"Main",
     data(){

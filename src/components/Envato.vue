@@ -29,10 +29,13 @@ export default {
     background-size: 120%;
     background-repeat: no-repeat;
     color:$color-White;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     div{
         width: 50%;
         margin: 0 auto;
-        padding-top: 100px;
+        // padding-top: 50px;
         p{
             padding: 20px;
         }
