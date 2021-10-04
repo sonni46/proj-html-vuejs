@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid" id="app">
     <Header id="navbar"/>
-    <Main class="main"/>
+    <Main/>
     <Footer/>
   </div>
 </template>
@@ -29,12 +29,11 @@ export default {
 
 #navbar {
   background-color: $color-White;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  position: sticky;
   width: 100%;
-}
-
-.main {
-  padding-top: 100px;
 }
 
 </style>
