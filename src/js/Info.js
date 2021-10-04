@@ -1,6 +1,9 @@
 const menu = 
 [
-    {message:'Home'},
+    {
+        message:'Home',
+        active:true,
+    },
     {message:'Who We Are'},
     {message:'Who We Do'},
     {message:'Where We Work'},

@@ -1,18 +1,15 @@
 <template>
   <div class="container-fluid" id="app">
-    <div class="container">
-      <Header/>
-    </div>
-    <div>
-      <Main/>
-    </div>
+    <Header id="navbar"/>
+    <Main class="main"/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
-// import Footer from './components/Footer.vue'
+import Footer from './components/Footer.vue'
 
 
 export default {
@@ -20,8 +17,8 @@ export default {
   components: {
     Header,
     Main,
-    // Footer
-  }
+    Footer
+  },
 }
 </script>
 
@@ -29,4 +26,15 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import "./style/Utilitis.scss";
 @import "./style/Colors.scss";
+
+#navbar {
+  background-color: $color-White;
+  position: fixed;
+  width: 100%;
+}
+
+.main {
+  padding-top: 100px;
+}
+
 </style>

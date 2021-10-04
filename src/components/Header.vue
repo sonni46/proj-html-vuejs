@@ -1,17 +1,19 @@
 <template>
 <!-- menu  -->
-  <div class="d-flex justify-content-between menu">
+<div class="">
+  <div class="d-flex justify-content-between menu container">
     <div class="d-flex">
       <img :src="require(`@/assets/img/avada-law-logo.png`)" alt="">
     </div>
     <div class="">
       <ul class="d-flex align-items-center">
         <li v-for="(info,index) in infoMenu" :key="index">
-          <a href="">{{info.message}}</a>
+          <a href="" :class="(info.active === true) ? 'active': null">{{info.message}}</a>
         </li>
       </ul>
     </div>
   </div>
+</div>
 <!--fine  menu  -->
 </template>
 
@@ -45,8 +47,14 @@ ul {
         a {
           color: $color-Shark;
           text-decoration: none;
+          padding-top: 20px;
         }
     }
+}
+
+.active {
+  border-top:1px solid $color-Breaker-Bay;
+  color:$color-Sea-Nymph;
 }
 
 </style>
