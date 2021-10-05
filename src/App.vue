@@ -1,8 +1,11 @@
 <template>
   <div class="container-fluid" id="app">
     <Header id="navbar"/>
-    <Main/>
+    <Main id="scoll"/>
     <Footer/>
+    <div class="buttonTop d-flex">
+      <a id="buttonTop" href="#scoll"><i class="fas fa-arrow-up"></i></a>
+    </div>
   </div>
 </template>
 
@@ -34,6 +37,19 @@ export default {
   top: 0;
   position: sticky;
   width: 100%;
+}
+
+.buttonTop {
+  justify-content: flex-end;
+  margin-right:50px;
+  margin-bottom: 10px;
+  
+    a{
+      color:$color-White;
+      padding: 10px 15px;
+      background-color:$color-Emperor;
+      border-radius: 10%;
+    }
 }
 
 </style>
